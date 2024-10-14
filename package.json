@@ -1,0 +1,32 @@
+{
+  "name": "buildparams",
+  "version": "1.0.0",
+  "description": "A flexible function to convert objects into URL-encoded query strings",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "query",
+    "string",
+    "url",
+    "encode",
+    "params"
+  ],
+  "author": "Charlie Say <charlie@talesoft.digital>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
