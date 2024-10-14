@@ -1,5 +1,5 @@
 {
-  "name": "buildparams",
+  "name": "simple-param-builder",
   "version": "1.0.0",
   "description": "A flexible function to convert objects into URL-encoded query strings",
   "main": "dist/index.js",

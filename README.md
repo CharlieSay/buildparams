@@ -1,17 +1,17 @@
-# buildParams
+# simple-param-builder
 
 A flexible TypeScript function to convert objects into URL-encoded query strings.
 
 ## Installation
 
 ```bash
-npm install buildparams
+npm install simple-param-builder
 ```
 
 ## Usage
 
 ```typescript
-import { buildParams } from 'buildparams';
+import { buildParams } from 'simple-param-builder';
 
 const params = {
   name: 'John Doe',
